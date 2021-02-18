@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../styles/projects/bintodec.css">
+    <title>Bin2Dec</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Bin2Dec</h1>
+        <form action="">
+            <input id="input-Binary" type="text" oninput="inputBinaryFormater(this.value)" placeholder="Digite o valor em binário"/>
+            <button type="button" onClick="converter()">CONVERTER</button>
+
+            <label for="story">Resposta</label>
+            
+            <textarea id="output-decimal" name="story" readonly>O valor em decimal vai sair aqui</textarea>
+        </form> 
+
+        
+    </div>
+    <script src="../../scripts/projects/bintodec.js"></script>
+</body>
+</html>

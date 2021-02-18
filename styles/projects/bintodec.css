@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+	width: 100vw;
+	/* Procurar entender o motivo futuramente pois na minha tela
+	ficava aparecendo as rollbars com 100vh so somem quando retiro 20px*/
+	height: calc(100vh - 20px);	
+	background-color:#a5b1c2;
+}
+
+#container{ 
+    margin: 20px auto;   
+    font-family: Rotobo, sans-serif;
+    color: #000;
+	width: 90%;  
+	height: 250px;
+	max-width: 400px; 
+}
+
+#container h1{
+	background-color:#fff;
+	border-radius:  10px 10px 0 0;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+#container form{	
+	background-color:#fff;
+	border-radius: 0 0 10px 10px;
+	text-align: center;
+	margin: 5px 0;
+	padding: 10px;
+}
+
+#container form button{
+	margin: 10px 0 10px 0;
+}
+
+#container textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+	box-shadow: 1px 1px 1px #999;
+}
+
+#container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#container form button, input, p, textarea{
+	text-align: center;
+	width: 90%;	
+}
