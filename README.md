@@ -1,5 +1,7 @@
-# VanillaJS-Projects
+# Vanilla-Projects
 Aqui pode ser encontrado um compilado de todos os projetos que eu já criei em HTML, Css e JavaScript.
+
+Atualmente se encontra feio para caramba, mas to melhorando a cada dia!
 
 Quer ver com os próprios olhos? 
 acesse: [Vanilla](https://racinesantos.netlify.app/)   
